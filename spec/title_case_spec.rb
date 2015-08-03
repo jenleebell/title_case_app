@@ -26,24 +26,24 @@ describe('String#title_case') do
   end
 end
 
-# describe('String#title_case') do
-#   it("It can handle numbers and special characters") do
-#     expect(("57 trees in the road").title_case()).to(eq("57 Trees in the Road"))
-#   end
-# end
-#
-# describe('String#title_case') do
-#   it("Can handle all Uppercase words") do
-#     expect(("HELLO WORLD").title_case()).to(eq("Hello World"))
-#   end
-# end
-#
-# describe('String#title_case') do
-#   it("Can handle mixed case letters") do
-#     expect(("EpIcOdUs").title_case()).to(eq("Epicodus"))
-#   end
-# end
-#
+describe('String#title_case') do
+  it("It can handle numbers and special characters") do
+    expect(("57 trees in the road").title_case()).to(eq("57 Trees in the Road"))
+  end
+end
+
+describe('String#title_case') do
+  it("Can handle all Uppercase words") do
+    expect(("HELLO WORLD").title_case()).to(eq("Hello World"))
+  end
+end
+
+describe('String#title_case') do
+  it("Can handle mixed case letters") do
+    expect(("EpIcOdUs").title_case()).to(eq("Epicodus"))
+  end
+end
+
 # describe('String#title_case') do
 #   it("Can handle unique names") do
 #     expect(("mcduff and o'malley").title_case()).to(eq("McDuff and O'Malley"))
