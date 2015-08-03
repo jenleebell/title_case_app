@@ -43,9 +43,3 @@ describe('String#title_case') do
     expect(("EpIcOdUs").title_case()).to(eq("Epicodus"))
   end
 end
-
-# describe('String#title_case') do
-#   it("Can handle unique names") do
-#     expect(("mcduff and o'malley").title_case()).to(eq("McDuff and O'Malley"))
-#   end
-# end
